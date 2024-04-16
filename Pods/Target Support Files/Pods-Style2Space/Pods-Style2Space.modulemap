@@ -1,0 +1,6 @@
+framework module Pods_Style2Space {
+  umbrella header "Pods-Style2Space-umbrella.h"
+
+  export *
+  module * { export * }
+}
