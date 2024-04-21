@@ -20,6 +20,31 @@
 		D422C8142BCD27EA00298B2C /* Style2SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422C8132BCD27EA00298B2C /* Style2SpaceTests.swift */; };
 		D422C81E2BCD27EA00298B2C /* Style2SpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422C81D2BCD27EA00298B2C /* Style2SpaceUITests.swift */; };
 		D422C8202BCD27EA00298B2C /* Style2SpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422C81F2BCD27EA00298B2C /* Style2SpaceUITestsLaunchTests.swift */; };
+		D468141A2BD27C1600A1AD59 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46814192BD27C1600A1AD59 /* SignupModel.swift */; };
+		D47D30402BD40E9F00CAC222 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D47D303F2BD40E9F00CAC222 /* IQKeyboardManagerSwift */; };
+		D47D30432BD4144A00CAC222 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D47D30422BD4144A00CAC222 /* swiftlint.yml */; };
+		D47D30462BD43D8600CAC222 /* GenderDobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D30442BD43D8600CAC222 /* GenderDobTableViewCell.swift */; };
+		D47D30472BD43D8600CAC222 /* GenderDobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47D30452BD43D8600CAC222 /* GenderDobTableViewCell.xib */; };
+		D47D30492BD5020300CAC222 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D30482BD5020200CAC222 /* OTPTextField.swift */; };
+		D492A4592BCFC4AF000C742F /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4562BCFC4AF000C742F /* StoryBoard.swift */; };
+		D492A45A2BCFC4AF000C742F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4572BCFC4AF000C742F /* Coordinator.swift */; };
+		D492A45B2BCFC4AF000C742F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4582BCFC4AF000C742F /* MainCoordinator.swift */; };
+		D492A4602BCFCF21000C742F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A45F2BCFCF21000C742F /* Constants.swift */; };
+		D492A4662BD002A8000C742F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4652BD002A8000C742F /* LoginViewModel.swift */; };
+		D492A4682BD06107000C742F /* ValidateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4672BD06107000C742F /* ValidateData.swift */; };
+		D492A46A2BD128DF000C742F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4692BD128DF000C742F /* Extensions.swift */; };
+		D492A46D2BD12DBC000C742F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A46C2BD12DBC000C742F /* APIManager.swift */; };
+		D492A46F2BD13D81000C742F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A46E2BD13D81000C742F /* LoginModel.swift */; };
+		D492A4752BD16C7C000C742F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4742BD16C7C000C742F /* SignUpViewController.swift */; };
+		D492A4772BD16C8F000C742F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4762BD16C8F000C742F /* SignUpViewModel.swift */; };
+		D492A47B2BD16FDE000C742F /* InputDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4792BD16FDE000C742F /* InputDataTableViewCell.swift */; };
+		D492A47C2BD16FDE000C742F /* InputDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D492A47A2BD16FDE000C742F /* InputDataTableViewCell.xib */; };
+		D492A4802BD17124000C742F /* SignupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A47E2BD17124000C742F /* SignupTableViewCell.swift */; };
+		D492A4812BD17124000C742F /* SignupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D492A47F2BD17124000C742F /* SignupTableViewCell.xib */; };
+		D492A4872BD1A13A000C742F /* AccountVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4862BD1A13A000C742F /* AccountVerificationViewController.swift */; };
+		D492A4892BD1A15F000C742F /* AccountVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4882BD1A15E000C742F /* AccountVerificationViewModel.swift */; };
+		D492A48F2BD1A8AC000C742F /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A48E2BD1A8AC000C742F /* CreatePasswordViewController.swift */; };
+		D492A4912BD1A8C3000C742F /* CreatePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A4902BD1A8C3000C742F /* CreatePasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +87,30 @@
 		D422C8192BCD27EA00298B2C /* Style2SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Style2SpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D422C81D2BCD27EA00298B2C /* Style2SpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style2SpaceUITests.swift; sourceTree = "<group>"; };
 		D422C81F2BCD27EA00298B2C /* Style2SpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style2SpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D46814192BD27C1600A1AD59 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		D47D30422BD4144A00CAC222 /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		D47D30442BD43D8600CAC222 /* GenderDobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderDobTableViewCell.swift; sourceTree = "<group>"; };
+		D47D30452BD43D8600CAC222 /* GenderDobTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderDobTableViewCell.xib; sourceTree = "<group>"; };
+		D47D30482BD5020200CAC222 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		D492A4562BCFC4AF000C742F /* StoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		D492A4572BCFC4AF000C742F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D492A4582BCFC4AF000C742F /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D492A45F2BCFCF21000C742F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D492A4652BD002A8000C742F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D492A4672BD06107000C742F /* ValidateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateData.swift; sourceTree = "<group>"; };
+		D492A4692BD128DF000C742F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D492A46C2BD12DBC000C742F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D492A46E2BD13D81000C742F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D492A4742BD16C7C000C742F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D492A4762BD16C8F000C742F /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		D492A4792BD16FDE000C742F /* InputDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataTableViewCell.swift; sourceTree = "<group>"; };
+		D492A47A2BD16FDE000C742F /* InputDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputDataTableViewCell.xib; sourceTree = "<group>"; };
+		D492A47E2BD17124000C742F /* SignupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTableViewCell.swift; sourceTree = "<group>"; };
+		D492A47F2BD17124000C742F /* SignupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupTableViewCell.xib; sourceTree = "<group>"; };
+		D492A4862BD1A13A000C742F /* AccountVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVerificationViewController.swift; sourceTree = "<group>"; };
+		D492A4882BD1A15E000C742F /* AccountVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVerificationViewModel.swift; sourceTree = "<group>"; };
+		D492A48E2BD1A8AC000C742F /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		D492A4902BD1A8C3000C742F /* CreatePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewModel.swift; sourceTree = "<group>"; };
 		ECFBB1CF28932B7ADBC53A92 /* Pods-Style2Space-Style2SpaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Style2Space-Style2SpaceUITests.release.xcconfig"; path = "Target Support Files/Pods-Style2Space-Style2SpaceUITests/Pods-Style2Space-Style2SpaceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB01AE47121313D9C1545A6E /* Pods_Style2Space.framework in Frameworks */,
+				D47D30402BD40E9F00CAC222 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,13 +163,13 @@
 				A82B3CA39E7CBF13DE5C7116 /* Pods-Style2SpaceTests.debug.xcconfig */,
 				BD47C3FE0BFBD9D83195F813 /* Pods-Style2SpaceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		D422C7ED2BCD27E400298B2C = {
 			isa = PBXGroup;
 			children = (
+				D47D30422BD4144A00CAC222 /* swiftlint.yml */,
 				D422C7F82BCD27E400298B2C /* Style2Space */,
 				D422C8122BCD27EA00298B2C /* Style2SpaceTests */,
 				D422C81C2BCD27EA00298B2C /* Style2SpaceUITests */,
@@ -142,14 +192,16 @@
 		D422C7F82BCD27E400298B2C /* Style2Space */ = {
 			isa = PBXGroup;
 			children = (
-				D422C7F92BCD27E500298B2C /* AppDelegate.swift */,
-				D422C7FB2BCD27E500298B2C /* SceneDelegate.swift */,
-				D422C7FD2BCD27E500298B2C /* ViewController.swift */,
+				D492A46B2BD12DA5000C742F /* ApiManager */,
+				D492A45E2BCFCEEC000C742F /* Utilities */,
+				D492A4552BCFC489000C742F /* Coordinator */,
+				D492A4542BCFC46B000C742F /* Delegates */,
+				D492A4612BCFF145000C742F /* Screens */,
 				D422C7FF2BCD27E500298B2C /* Main.storyboard */,
 				D422C8052BCD27E900298B2C /* Assets.xcassets */,
 				D422C8072BCD27E900298B2C /* LaunchScreen.storyboard */,
 				D422C80A2BCD27E900298B2C /* Info.plist */,
-				D422C8022BCD27E500298B2C /* Style2Space.xcdatamodeld */,
+				D492A45D2BCFCCC2000C742F /* DataBase */,
 			);
 			path = Style2Space;
 			sourceTree = "<group>";
@@ -171,6 +223,219 @@
 			path = Style2SpaceUITests;
 			sourceTree = "<group>";
 		};
+		D492A4542BCFC46B000C742F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D422C7FB2BCD27E500298B2C /* SceneDelegate.swift */,
+				D422C7F92BCD27E500298B2C /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D492A4552BCFC489000C742F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4572BCFC4AF000C742F /* Coordinator.swift */,
+				D492A4582BCFC4AF000C742F /* MainCoordinator.swift */,
+				D492A4562BCFC4AF000C742F /* StoryBoard.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D492A45C2BCFCCA3000C742F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4642BCFF17B000C742F /* ViewModel */,
+				D492A4632BCFF174000C742F /* Model */,
+				D492A4622BCFF167000C742F /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D492A45D2BCFCCC2000C742F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				D422C8022BCD27E500298B2C /* Style2Space.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		D492A45E2BCFCEEC000C742F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D492A45F2BCFCF21000C742F /* Constants.swift */,
+				D492A4692BD128DF000C742F /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D492A4612BCFF145000C742F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D492A48A2BD1A869000C742F /* Create Password */,
+				D492A4822BD1A0D4000C742F /* AccountVerification */,
+				D492A4702BD16C18000C742F /* Signup */,
+				D492A45C2BCFCCA3000C742F /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D492A4622BCFF167000C742F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D422C7FD2BCD27E500298B2C /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D492A4632BCFF174000C742F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D492A46E2BD13D81000C742F /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D492A4642BCFF17B000C742F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4672BD06107000C742F /* ValidateData.swift */,
+				D492A4652BD002A8000C742F /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D492A46B2BD12DA5000C742F /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				D492A46C2BD12DBC000C742F /* APIManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		D492A4702BD16C18000C742F /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4732BD16C36000C742F /* View */,
+				D492A4722BD16C2E000C742F /* ViewModel */,
+				D492A4712BD16C23000C742F /* Model */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		D492A4712BD16C23000C742F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D46814192BD27C1600A1AD59 /* SignupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D492A4722BD16C2E000C742F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4762BD16C8F000C742F /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D492A4732BD16C36000C742F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4742BD16C7C000C742F /* SignUpViewController.swift */,
+				D492A47D2BD17109000C742F /* SignupCell */,
+				D492A4782BD16F8B000C742F /* textFieldCell */,
+				D47D30442BD43D8600CAC222 /* GenderDobTableViewCell.swift */,
+				D47D30452BD43D8600CAC222 /* GenderDobTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D492A4782BD16F8B000C742F /* textFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4792BD16FDE000C742F /* InputDataTableViewCell.swift */,
+				D492A47A2BD16FDE000C742F /* InputDataTableViewCell.xib */,
+			);
+			path = textFieldCell;
+			sourceTree = "<group>";
+		};
+		D492A47D2BD17109000C742F /* SignupCell */ = {
+			isa = PBXGroup;
+			children = (
+				D492A47E2BD17124000C742F /* SignupTableViewCell.swift */,
+				D492A47F2BD17124000C742F /* SignupTableViewCell.xib */,
+			);
+			path = SignupCell;
+			sourceTree = "<group>";
+		};
+		D492A4822BD1A0D4000C742F /* AccountVerification */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4852BD1A0FE000C742F /* View */,
+				D492A4842BD1A0F4000C742F /* ViewModel */,
+				D492A4832BD1A0EC000C742F /* Model */,
+			);
+			path = AccountVerification;
+			sourceTree = "<group>";
+		};
+		D492A4832BD1A0EC000C742F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D492A4842BD1A0F4000C742F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4882BD1A15E000C742F /* AccountVerificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D492A4852BD1A0FE000C742F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4862BD1A13A000C742F /* AccountVerificationViewController.swift */,
+				D47D30482BD5020200CAC222 /* OTPTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D492A48A2BD1A869000C742F /* Create Password */ = {
+			isa = PBXGroup;
+			children = (
+				D492A48D2BD1A890000C742F /* View */,
+				D492A48C2BD1A882000C742F /* ViewModel */,
+				D492A48B2BD1A87B000C742F /* Model */,
+			);
+			path = "Create Password";
+			sourceTree = "<group>";
+		};
+		D492A48B2BD1A87B000C742F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D492A48C2BD1A882000C742F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D492A4902BD1A8C3000C742F /* CreatePasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D492A48D2BD1A890000C742F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D492A48E2BD1A8AC000C742F /* CreatePasswordViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,12 +447,16 @@
 				D422C7F22BCD27E400298B2C /* Sources */,
 				D422C7F32BCD27E400298B2C /* Frameworks */,
 				D422C7F42BCD27E400298B2C /* Resources */,
+				D47D30412BD412E200CAC222 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Style2Space;
+			packageProductDependencies = (
+				D47D303F2BD40E9F00CAC222 /* IQKeyboardManagerSwift */,
+			);
 			productName = Style2Space;
 			productReference = D422C7F62BCD27E400298B2C /* Style2Space.app */;
 			productType = "com.apple.product-type.application";
@@ -262,6 +531,9 @@
 				Base,
 			);
 			mainGroup = D422C7ED2BCD27E400298B2C;
+			packageReferences = (
+				D47D303E2BD40E9F00CAC222 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = D422C7F72BCD27E400298B2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,6 +550,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D492A47C2BD16FDE000C742F /* InputDataTableViewCell.xib in Resources */,
+				D47D30432BD4144A00CAC222 /* swiftlint.yml in Resources */,
+				D492A4812BD17124000C742F /* SignupTableViewCell.xib in Resources */,
+				D47D30472BD43D8600CAC222 /* GenderDobTableViewCell.xib in Resources */,
 				D422C8092BCD27E900298B2C /* LaunchScreen.storyboard in Resources */,
 				D422C8062BCD27E900298B2C /* Assets.xcassets in Resources */,
 				D422C8012BCD27E500298B2C /* Main.storyboard in Resources */,
@@ -367,6 +643,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D47D30412BD412E200CAC222 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\n    \t\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -374,10 +667,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D492A4802BD17124000C742F /* SignupTableViewCell.swift in Sources */,
+				D492A46D2BD12DBC000C742F /* APIManager.swift in Sources */,
+				D492A4592BCFC4AF000C742F /* StoryBoard.swift in Sources */,
+				D492A45B2BCFC4AF000C742F /* MainCoordinator.swift in Sources */,
+				D492A4912BD1A8C3000C742F /* CreatePasswordViewModel.swift in Sources */,
 				D422C7FE2BCD27E500298B2C /* ViewController.swift in Sources */,
+				D492A47B2BD16FDE000C742F /* InputDataTableViewCell.swift in Sources */,
+				D492A45A2BCFC4AF000C742F /* Coordinator.swift in Sources */,
 				D422C7FA2BCD27E500298B2C /* AppDelegate.swift in Sources */,
 				D422C7FC2BCD27E500298B2C /* SceneDelegate.swift in Sources */,
+				D492A4872BD1A13A000C742F /* AccountVerificationViewController.swift in Sources */,
+				D492A4772BD16C8F000C742F /* SignUpViewModel.swift in Sources */,
 				D422C8042BCD27E500298B2C /* Style2Space.xcdatamodeld in Sources */,
+				D492A4752BD16C7C000C742F /* SignUpViewController.swift in Sources */,
+				D492A46F2BD13D81000C742F /* LoginModel.swift in Sources */,
+				D492A4682BD06107000C742F /* ValidateData.swift in Sources */,
+				D492A4602BCFCF21000C742F /* Constants.swift in Sources */,
+				D47D30492BD5020300CAC222 /* OTPTextField.swift in Sources */,
+				D492A46A2BD128DF000C742F /* Extensions.swift in Sources */,
+				D492A4892BD1A15F000C742F /* AccountVerificationViewModel.swift in Sources */,
+				D492A4662BD002A8000C742F /* LoginViewModel.swift in Sources */,
+				D492A48F2BD1A8AC000C742F /* CreatePasswordViewController.swift in Sources */,
+				D47D30462BD43D8600CAC222 /* GenderDobTableViewCell.swift in Sources */,
+				D468141A2BD27C1600A1AD59 /* SignupModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -542,7 +855,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -560,6 +873,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z89NM8CPW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Style2Space/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -588,6 +902,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z89NM8CPW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Style2Space/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -724,6 +1039,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D47D303E2BD40E9F00CAC222 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D47D303F2BD40E9F00CAC222 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D47D303E2BD40E9F00CAC222 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D422C8022BCD27E500298B2C /* Style2Space.xcdatamodeld */ = {

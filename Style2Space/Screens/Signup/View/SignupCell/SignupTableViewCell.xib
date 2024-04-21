@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="211" id="KGk-i7-Jjw" customClass="SignupTableViewCell" customModule="Style2Space" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="442" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E55-Vc-56L">
+                        <rect key="frame" x="20" y="30" width="170" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="am0-cf-9w9"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="signup">
+                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjy-6T-fFM">
+                        <rect key="frame" x="170" y="30" width="72" height="48"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="arrow"/>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8kT-tT-mDg">
+                        <rect key="frame" x="20" y="151.33333333333334" width="402" height="29.666666666666657"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29.670000000000002" id="vd4-dl-lvq"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="By creating an account, you agree to the Terms &amp; Conditions when using the Style2Space app.">
+                            <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                            <color key="baseForegroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ig-2M-qej">
+                        <rect key="frame" x="20" y="103" width="65.666666666666671" height="28.333333333333343"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8kT-tT-mDg" secondAttribute="trailing" constant="20" id="6V0-aR-hs3"/>
+                    <constraint firstItem="8kT-tT-mDg" firstAttribute="leading" secondItem="9ig-2M-qej" secondAttribute="leading" id="CCk-wf-rT3"/>
+                    <constraint firstItem="vjy-6T-fFM" firstAttribute="bottom" secondItem="E55-Vc-56L" secondAttribute="bottom" id="Wp0-T1-fGe"/>
+                    <constraint firstItem="9ig-2M-qej" firstAttribute="leading" secondItem="E55-Vc-56L" secondAttribute="leading" id="ZbH-nE-sRJ"/>
+                    <constraint firstItem="9ig-2M-qej" firstAttribute="top" secondItem="E55-Vc-56L" secondAttribute="bottom" constant="25" id="dUX-nv-83O"/>
+                    <constraint firstItem="E55-Vc-56L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="gNY-5X-PcU"/>
+                    <constraint firstItem="8kT-tT-mDg" firstAttribute="top" secondItem="9ig-2M-qej" secondAttribute="bottom" constant="20" id="hoQ-J3-rYG"/>
+                    <constraint firstItem="vjy-6T-fFM" firstAttribute="leading" secondItem="E55-Vc-56L" secondAttribute="trailing" constant="-20" id="jZ4-vY-baH"/>
+                    <constraint firstItem="vjy-6T-fFM" firstAttribute="top" secondItem="E55-Vc-56L" secondAttribute="top" id="nqn-CK-1dG"/>
+                    <constraint firstItem="E55-Vc-56L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="o3J-eu-dXZ"/>
+                    <constraint firstAttribute="bottom" secondItem="8kT-tT-mDg" secondAttribute="bottom" constant="10" id="tqJ-3i-T14"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="loginButton" destination="9ig-2M-qej" id="ijI-Yh-agL"/>
+                <outlet property="signupButton" destination="E55-Vc-56L" id="qST-Hi-7WN"/>
+                <outlet property="termsandconditionButton" destination="8kT-tT-mDg" id="3Sc-Vu-s4q"/>
+            </connections>
+            <point key="canvasLocation" x="112.97709923664122" y="78.521126760563391"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow" width="48" height="48"/>
+        <image name="signup" width="146" height="48"/>
+    </resources>
+</document>

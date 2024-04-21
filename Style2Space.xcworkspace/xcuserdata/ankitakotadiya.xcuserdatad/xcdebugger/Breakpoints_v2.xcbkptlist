@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3346421-C09F-4165-AF58-A94035DF8AF9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8D1835D-8D46-490D-B7FC-4C4048327DA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/Login/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "togglePasswordVisibility()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B8D1835D-8D46-490D-B7FC-4C4048327DA5 - 5ace5abd5abfeecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.ViewController.togglePasswordVisibility() -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Login/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "B8D1835D-8D46-490D-B7FC-4C4048327DA5 - 5ace5abd5abfecdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.ViewController.togglePasswordVisibility() -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Login/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/Signup/View/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "updateTextFieldData(for:newValue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef69c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef69c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - d3bd1acca7e5b6fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Style2Space.SignupTextFieldModel) -&gt; Swift.Bool in Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef694c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef694c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - d3bd1acca7e5b67e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Style2Space.SignupTextFieldModel) -&gt; Swift.Bool in Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "autoFillTextField(with:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb76832891290152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "343">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb76832891290152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "539">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb76832891290152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bbbe97dd6c5afb5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Optional&lt;Swift.String&gt; in Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb768328912907c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bbbe97dd6c5afdcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Optional&lt;Swift.String&gt; in Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B0A3608-B7C9-47E0-BC1D-EF1953865E93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
