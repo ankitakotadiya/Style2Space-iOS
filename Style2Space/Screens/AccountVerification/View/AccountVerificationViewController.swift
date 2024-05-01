@@ -8,21 +8,16 @@
 import UIKit
 
 class AccountVerificationViewController: UIViewController, Storyboard {
-    
     // Outlets
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    
     @IBOutlet weak var stackView: UIStackView!
-    
     @IBOutlet weak var passTextField1: OTPTextField!
     @IBOutlet weak var passTextField2: OTPTextField!
     @IBOutlet weak var passTextField3: OTPTextField!
     @IBOutlet weak var passTextField4: OTPTextField!
-    
     @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var resendButton: UIButton!
-    
     private var textFieldsCollection: [OTPTextField] = []
     var remainingStrStack: [String] = []
     var accountViewModel: AccountVerificationViewModel? = nil

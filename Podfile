@@ -6,8 +6,9 @@ target 'Style2Space' do
   use_frameworks!
 
   # Pods for Style2Space
-#  pod 'IQKeyboardManagerSwift'
-  pod 'SwiftLint'
+  pod 'IQKeyboardManagerSwift'
+#  pod 'SwiftLint', :git => 'https://github.com/realm/SwiftLint.git'
+
 
 
   target 'Style2SpaceTests' do

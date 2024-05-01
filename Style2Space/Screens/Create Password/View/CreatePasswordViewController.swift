@@ -87,6 +87,8 @@ class CreatePasswordViewController: UIViewController, Storyboard {
             self.showAlert(title: "New Password", message: "The new password and confirmation password do not match")
         } else {
             self.createPasswordViewModel.SubmitPasswordButtonClicked(password: validPassword)
+            self.coordinator?.setHomeViewControllers()
+            
         }
     }
 }

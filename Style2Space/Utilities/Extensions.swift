@@ -79,6 +79,56 @@ extension UIViewController {
     }
 }
 
+extension UIView {
+    func roundCorners(corners: UIRectCorner, radius: CGFloat, fram: CGRect) {
+        let maskPath = UIBezierPath(
+            roundedRect: frame,
+            byRoundingCorners: corners,
+            cornerRadii: CGSize(width: radius, height: radius)
+        )
+        let maskLayer = CAShapeLayer()
+        maskLayer.frame = fram
+        maskLayer.path = maskPath.cgPath
+        layer.mask = maskLayer
+    }
+}
+
+extension UITableView {
+    func register<T: UITableViewCell>(cellType: T.Type) where T: Reusable {
+        register(T.nib, forCellReuseIdentifier: String.className(for: cellType))
+    }
+}
+
+extension UICollectionView {
+    func register<T: UICollectionViewCell>(cellType: T.Type) where T: Reusable {
+        register(T.nib, forCellWithReuseIdentifier: String.className(for: cellType))
+    }
+}
+
+extension UINavigationController {
+    
+    func setupNavigationAppearance() {
+        
+        let backButtonImage = UIImage(named: "back")
+        self.navigationBar.backIndicatorImage = backButtonImage
+        self.navigationBar.backIndicatorTransitionMaskImage = backButtonImage
+        self.navigationBar.tintColor = .black
+                
+        // Set navigation bar title text attributes
+//        self.navigationBar.titleTextAttributes = [
+//            NSAttributedString.Key.foregroundColor: UIColor.black,
+//            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20, weight: .bold)
+//        ]
+        self.navigationBar.prefersLargeTitles = false
+        
+        // Set navigation bar style
+        self.navigationBar.barStyle = .default
+        self.navigationBar.isTranslucent = true
+        
+    }
+    
+}
+
 extension String {    
     func toData(using encoding: String.Encoding = .utf8) -> Data {
         return data(using: encoding)!
@@ -132,6 +182,34 @@ extension UITextField {
         self.rightViewMode = .always
         
         return eyeButton
+    }
+}
+
+extension UIButton {
+    func setUpButton(text: String,
+                     textColor: UIColor,
+                     font: UIFont,
+                     alignment: NSTextAlignment = .left,
+                     image: UIImage? = nil,
+                     cornerRadius: CGFloat,
+                     borderWidth: CGFloat,
+                     borderColor: UIColor? = nil,
+                     backgroundColor: UIColor = .white) {
+        
+        // Set button title properties
+        self.setTitle(text, for: .normal)
+//        self.titleLabel?.textColor = textColor
+        self.setTitleColor(textColor, for: .normal)
+        self.titleLabel?.font = font
+        self.titleLabel?.textAlignment = alignment
+        // Set button image
+        self.setImage(image, for: .normal)
+        
+        // Set button appearance properties
+        self.layer.cornerRadius = cornerRadius
+        self.layer.borderWidth = borderWidth
+        self.layer.borderColor = borderColor?.cgColor
+        self.backgroundColor = backgroundColor
     }
 }
 

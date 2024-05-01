@@ -12,6 +12,11 @@ struct Colors {
     static let AppColour = UIColor(red: 149/255.0, green: 58/255.0, blue: 33/255.0, alpha: 1.0)
     static let LightGray = UIColor(red: 159/255.0, green: 159/255.0, blue: 159/255.0, alpha: 1.0)
     static let borderColor = UIColor(red: 204/255.0, green: 204/255.0, blue: 204/255.0, alpha: 1.0)
+    static let tabTint = UIColor(red: 243/255.0, green: 243/255.0, blue: 243/255.0, alpha: 1.0)
+    static let homeBackground = UIColor(red: 253/255.0, green: 242/255.0, blue: 231/255.0, alpha: 1.0)
+    static let separatorColor = UIColor(red: 243/255.0, green: 157/255.0, blue: 73/255.0, alpha: 1.0)
+    static let shadowRight = UIColor(red: 193/255.0, green: 122/255.0, blue: 70/255.0, alpha: 1.0)
+    static let shadowLeft = UIColor(red: 173/255.0, green: 63/255.0, blue: 41/255.0, alpha: 1.0)
 }
 
 struct APIHeaders {

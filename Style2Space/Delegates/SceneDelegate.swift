@@ -21,13 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let navController = UINavigationController()
             // send that into our coordinator so that it can display view controllers
-        coordinator = MainCoordinator(navigationController: navController)
+        coordinator = MainCoordinator(navigationController: navController, window: window ?? UIWindow())
 
         // tell the coordinator to take over control
-        coordinator?.start()
+        coordinator?.setHomeViewControllers()
 
         // create a basic UIWindow and activate it
-        window?.rootViewController = navController
+//        window?.rootViewController = navController
         window?.makeKeyAndVisible()
 
     }

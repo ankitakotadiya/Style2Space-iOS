@@ -62,8 +62,8 @@
             filePath = "Style2Space/Screens/Signup/View/SignUpViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
             landmarkName = "updateTextFieldData(for:newValue:)"
             landmarkType = "7">
             <Locations>
@@ -157,6 +157,51 @@
                   endingLineNumber = "215"
                   offsetFromSymbolStart = "37">
                </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef56b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - 8f5ff4e357ef56b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  uuid = "276E4762-E5A6-4FA1-93D6-000085A216A2 - d3bd1acca7e58980"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Style2Space.SignupTextFieldModel) -&gt; Swift.Bool in Style2Space.SignUpViewController.updateTextFieldData(for: Style2Space.Placeholder, newValue: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/Signup/View/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "37">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -170,10 +215,10 @@
             filePath = "Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "autoFillTextField(with:)"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb76832891290152"
@@ -265,6 +310,36 @@
                   endingLineNumber = "77"
                   offsetFromSymbolStart = "46">
                </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bb7683289129072c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "C179C6E4-090F-4133-BD29-D4EB302E09C3 - bbbe97dd6c5afd24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Optional&lt;Swift.String&gt; in Style2Space.AccountVerificationViewController.autoFillTextField(with: Swift.String) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "46">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -278,10 +353,326 @@
             filePath = "Style2Space/Screens/AccountVerification/View/AccountVerificationViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71DDC204-7805-4CC6-A974-4F1F17D0A9B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/Cell/Place Bid/PlaceBidButtonTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "configure(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71DDC204-7805-4CC6-A974-4F1F17D0A9B3 - b58c7ad5de1808aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PlaceBidButtonTableViewCell.configure(for: Style2Space.PlaceBiDRows) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Place%20Bid/PlaceBidButtonTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "71DDC204-7805-4CC6-A974-4F1F17D0A9B3 - b58c7ad5de1808aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PlaceBidButtonTableViewCell.configure(for: Style2Space.PlaceBiDRows) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Place%20Bid/PlaceBidButtonTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACD3E246-B939-4C36-BF61-AAC9C8D6346C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/Cell/Property Classification/PropertyClassificationTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "button2Tapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACD3E246-B939-4C36-BF61-AAC9C8D6346C - 6d56a72378885721"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button2Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "ACD3E246-B939-4C36-BF61-AAC9C8D6346C - 6d56a72378885763"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button2Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "ACD3E246-B939-4C36-BF61-AAC9C8D6346C - 6d56a72378885763"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button2Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "ACD3E246-B939-4C36-BF61-AAC9C8D6346C - 6d56a72378885763"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button2Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75833C6F-7E6A-4B73-9C9E-1DEDE5A94301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/Cell/Property Classification/PropertyClassificationTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "button1Tapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75833C6F-7E6A-4B73-9C9E-1DEDE5A94301 - a915a22ed54fbab5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button1Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "849">
+               </Location>
+               <Location
+                  uuid = "75833C6F-7E6A-4B73-9C9E-1DEDE5A94301 - a915a22ed54fba96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button1Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "75833C6F-7E6A-4B73-9C9E-1DEDE5A94301 - a915a22ed54fba96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button1Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "75833C6F-7E6A-4B73-9C9E-1DEDE5A94301 - a915a22ed54fba96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.button1Tapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05D79B7B-CA61-4008-BC01-7528E2BCDF47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/PlaceBidViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "handleCellEvent(product:indexPath:event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7442E55-8E60-43EA-8D2A-E0169D53AA21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/Cell/Property Classification/PropertyClassificationTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "prepareForReuse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7442E55-8E60-43EA-8D2A-E0169D53AA21 - abd2e8598fbc13fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.setSelected(_: Swift.Bool, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "E7442E55-8E60-43EA-8D2A-E0169D53AA21 - d596e44b4dc85c96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Style2Space.PropertyClassificationTableViewCell.prepareForReuse() -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/Cell/Property%20Classification/PropertyClassificationTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B14A6830-BE4C-43B5-B533-B87BDEC0C949"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Style2Space/Screens/DashBoard/Place BID/View/PlaceBidViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "updateUIwithTextfield(textfieldData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B14A6830-BE4C-43B5-B533-B87BDEC0C949 - 570a38e2f6c9ed8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Style2Space.RowType, Swift.String) -&gt; () in Style2Space.PlaceBidViewController.updateUIwithTextfield(textfieldData: Swift.Dictionary&lt;Style2Space.RowType, Swift.String&gt;) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/PlaceBidViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1215">
+               </Location>
+               <Location
+                  uuid = "B14A6830-BE4C-43B5-B533-B87BDEC0C949 - 570a38e2f6c9ed8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Style2Space.RowType, Swift.String) -&gt; () in Style2Space.PlaceBidViewController.updateUIwithTextfield(textfieldData: Swift.Dictionary&lt;Style2Space.RowType, Swift.String&gt;) -&gt; ()"
+                  moduleName = "Style2Space"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitakotadiya/Documents/Style2Space-iOS/Style2Space/Screens/DashBoard/Place%20BID/View/PlaceBidViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -91,7 +91,8 @@ extension SignUpViewController : UITableViewDataSource {
 extension SignUpViewController: UITableViewDelegate, GenderDobTableViewCellDelegate, SignupTableViewCellDelegate {
     
     func didTapLoginButton() {
-        self.coordinator?.PushtoLogin()
+//        self.coordinator?.PushtoLogin()
+        self.coordinator?.setHomeViewControllers()
     }
     
     func didTapSignupButton() {
